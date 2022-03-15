@@ -1,0 +1,22 @@
+.content {
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+.img-slider {
+  width: 100%;
+  margin-left: 200px;
+}
+.slideimg {
+  width: 100%;
+}
+.case-text {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+  margin-right: 200px;
+  margin-left: 50px;
+}
+.bold {
+  font-weight: 600;
+}
