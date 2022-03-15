@@ -1,14 +1,14 @@
 .process-grid {
   margin-top: 100px;
-  margin-left: 200px;
-  margin-right: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 15px;
 }
-.process-img {
-  width: 100%;
+.process-img img {
+  width: 35%;
 }
 .process-title {
   margin-top: 15px;

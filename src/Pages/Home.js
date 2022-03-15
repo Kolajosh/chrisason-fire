@@ -1,5 +1,6 @@
 import React from "react";
 import CarouselText from "../Components/CarouselText";
+import Clients from "../Components/Clients";
 import HeroSectionHome from "../Components/HeroSectionHome";
 import Process from "../Components/Process";
 
@@ -9,6 +10,7 @@ function Home() {
       <HeroSectionHome />
       <CarouselText />
       <Process />
+      <Clients />
     </>
   );
 }
