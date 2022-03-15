@@ -52,13 +52,17 @@ function Footer() {
       </div>
 
       <div className="footer-3">
-        <div className="left-text">
+        <div className="left-text-3">
           <p>
             Terms of use | Privacy Policy | © 1987 - 2021. Chrisason Fire
             Protection LTD. All Rights Reserved.
           </p>
         </div>
-        <div className="right-text"></div>
+        <div className="right-text-3">
+          <i class="fab fa-linkedin "></i>
+          <i class="fab fa-twitter "></i>
+          <i class="fab fa-youtube "></i>
+        </div>
       </div>
     </>
   );
