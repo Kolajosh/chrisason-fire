@@ -1,0 +1,32 @@
+/*------------footer 1st section--------------*/
+
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 150px;
+  background: #efefef;
+}
+.left-text {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.right-text {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/*------------footer 2nd section--------------*/
+
+.footer-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.foot-img img {
+  width: 100%;
+}
