@@ -5,7 +5,7 @@ import HeroSectionHome from "../Components/HeroSectionHome";
 import HomeCards from "../Components/HomeCards";
 import Process from "../Components/Process";
 
-function Home() {
+export default function Home() {
   return (
     <>
       <HeroSectionHome />
@@ -16,5 +16,3 @@ function Home() {
     </>
   );
 }
-
-export default Home;

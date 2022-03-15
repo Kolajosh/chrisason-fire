@@ -8,8 +8,12 @@ function Navbar() {
         <h1>CHRISASON FIRE PROTECTION</h1>
       </div>
       <div className="nav-menu">
-        <div className="home">Home</div>
-        <div className="company">Our Company</div>
+        <div className="home">
+          <a href="/">Home</a>
+        </div>
+        <div className="company">
+          <a href="/about">Our Company</a>
+        </div>
         <div className="operations">Operations</div>
         <div className="products">Products</div>
         <div className="contact">Contact</div>
