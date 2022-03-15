@@ -1,0 +1,29 @@
+.about-section {
+  margin-top: 15%;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.about-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4vw;
+}
+.about-paragraph-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.15vw;
+}
+.about-flex {
+  width: 100%;
+  display: flex;
+}
+.img-left {
+  width: 110%;
+}
+.img-left img {
+  width: 100%;
+  padding-top: 20px;
+}
+.text-right {
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.15vw;
+}

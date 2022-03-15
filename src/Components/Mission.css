@@ -1,0 +1,38 @@
+.our-mission {
+  padding-top: 115px;
+  padding-bottom: 115px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url("../Images/mission.png");
+}
+.our-mission-content {
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+}
+.mission-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4vw;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mission-body {
+  font-size: 1.15vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*----------------------text section---------------------*/
+.mission-text {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.mission-text-flex {
+  display: flex;
+  grid-gap: 70px;
+  justify-content: space-between;
+  font-size: 1.15vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
