@@ -26,13 +26,21 @@
 
 /*----------------------text section---------------------*/
 .mission-text {
+  padding-top: 30px;
+  padding-bottom: 50px;
   padding-left: 200px;
   padding-right: 200px;
 }
 .mission-text-flex {
   display: flex;
-  grid-gap: 70px;
+  gap: 70px;
   justify-content: space-between;
   font-size: 1.15vw;
   font-family: Arial, Helvetica, sans-serif;
+}
+.right-text {
+  width: 50%;
+}
+.left-text {
+  width: 50%;
 }

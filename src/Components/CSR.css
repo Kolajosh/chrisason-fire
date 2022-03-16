@@ -1,0 +1,33 @@
+.csr-main {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-image: url("../Images/csr.png");
+}
+.csr-title {
+  text-align: center;
+}
+.csr-title h1 {
+  font-size: 3vw;
+  color: white;
+}
+
+.csr-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  font-size: 1.15vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.csr-left-text {
+  width: 50%;
+}
+.csr-right-text {
+  width: 50%;
+}

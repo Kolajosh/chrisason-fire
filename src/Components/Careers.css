@@ -1,0 +1,41 @@
+.careers-main {
+  width: 100%;
+}
+.careers-img img {
+  width: 100%;
+}
+.careers-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.light-text {
+  font-size: 1.15vw;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.bold-text {
+  font-size: 1.15vw;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.careers-black {
+  padding-left: 200px;
+  padding-right: 200px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  font-size: 1.15vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.careers-black-left {
+  width: 50%;
+}
+.careers-black-right {
+  width: 50%;
+}

@@ -12,7 +12,7 @@ function Footer() {
   return (
     <>
       <div className="footer-1">
-        <div className="left-text">
+        <div className="left-text-foot">
           <p>
             <span className="bold">CHRISASON FIRE PROTECTION LTD</span>
             <br />
@@ -21,7 +21,7 @@ function Footer() {
             safety technology
           </p>
         </div>
-        <div className="right-text">
+        <div className="right-text-foot">
           Email: info@chrisasonfire.com <br />
           Work: +234 803 335 6183
         </div>
