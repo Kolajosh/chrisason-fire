@@ -1,5 +1,6 @@
 import React from "react";
 import Careers from "../Components/Careers";
+import CompanySlider from "../Components/CompanySlider";
 import CSR from "../Components/CSR";
 import HeroSectionCompany from "../Components/HeroSectionCompany";
 import Mission from "../Components/Mission";
@@ -15,6 +16,7 @@ function Company() {
       <MoreAbout />
       <CSR />
       <Careers />
+      <CompanySlider />
     </>
   );
 }

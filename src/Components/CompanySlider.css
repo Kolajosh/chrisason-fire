@@ -1,0 +1,26 @@
+.slider-main {
+  background-image: url("../Images/aboutslide.png");
+}
+.slider-title {
+  text-align: center;
+  padding-top: 50px;
+}
+.img-slider {
+  width: 80%;
+  text-align: center;
+}
+.slider-title h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  color: white;
+}
+.slider-context {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.15vw;
+  color: white;
+  padding-bottom: 50px;
+}
+.company-slide {
+  margin-left: 200px;
+  margin-right: 200px;
+}
