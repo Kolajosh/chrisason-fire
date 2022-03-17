@@ -1,21 +1,21 @@
 import React from "react";
 import "./Clients.css";
-import notore from "../Images/notore.png";
-import ge from "../Images/ge.png";
-import ffs from "../Images/ffs.png";
-import feasr from "../Images/feasr.png";
-import nnpc from "../Images/nnpc.png";
-import mede from "../Images/mede.png";
-import goaks from "../Images/goaks.png";
-import exxonmobil from "../Images/exxonmobil.png";
-import gofs from "../Images/gofs.png";
-import uniuyo from "../Images/uniuyo.png";
-import shell from "../Images/shell.png";
-import icrc from "../Images/icrc.png";
-import fgn from "../Images/fgn.png";
-import eni from "../Images/eni.png";
-import chevron from "../Images/chevron.png";
-import total from "../Images/total.png";
+import notore from "../../Images/notore.png";
+import ge from "../../Images/ge.png";
+import ffs from "../../Images/ffs.png";
+import feasr from "../../Images/feasr.png";
+import nnpc from "../../Images/nnpc.png";
+import mede from "../../Images/mede.png";
+import goaks from "../../Images/goaks.png";
+import exxonmobil from "../../Images/exxonmobil.png";
+import gofs from "../../Images/gofs.png";
+import uniuyo from "../../Images/uniuyo.png";
+import shell from "../../Images/shell.png";
+import icrc from "../../Images/icrc.png";
+import fgn from "../../Images/fgn.png";
+import eni from "../../Images/eni.png";
+import chevron from "../../Images/chevron.png";
+import total from "../../Images/total.png";
 
 function Clients() {
   return (

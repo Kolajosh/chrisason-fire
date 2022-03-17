@@ -1,6 +1,6 @@
 import React from "react";
 import "./WhoWeAre.css";
-import aboutfire from "../Images/aboutfire.png";
+import aboutfire from "../../Images/aboutfire.png";
 
 function WhoWeAre() {
   return (

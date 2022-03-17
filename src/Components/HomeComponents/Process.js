@@ -1,8 +1,8 @@
 import React from "react";
-import pro1 from "../Images/process1.svg";
-import pro2 from "../Images/process2.svg";
-import pro3 from "../Images/process3.svg";
-import pro4 from "../Images/process4.svg";
+import pro1 from "../../Images/process1.svg";
+import pro2 from "../../Images/process2.svg";
+import pro3 from "../../Images/process3.svg";
+import pro4 from "../../Images/process4.svg";
 import "./Process.css";
 
 function Process() {

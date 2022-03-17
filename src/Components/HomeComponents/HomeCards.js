@@ -1,8 +1,8 @@
 import React from "react";
 import "./HomeCards.css";
-import fireengineering from "../Images/fireengineering.png";
-import marineengineering from "../Images/marineengineering.png";
-import fireinstallations from "../Images/fireinstallations.png";
+import fireengineering from "../../Images/fireengineering.png";
+import marineengineering from "../../Images/marineengineering.png";
+import fireinstallations from "../../Images/fireinstallations.png";
 
 function HomeCards() {
   return (

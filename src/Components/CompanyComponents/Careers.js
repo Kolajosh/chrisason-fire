@@ -1,5 +1,5 @@
 import React from "react";
-import careers from "../Images/careers.png";
+import careers from "../../Images/careers.png";
 import "./Careers.css";
 
 function Careers() {

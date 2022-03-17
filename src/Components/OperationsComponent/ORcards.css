@@ -1,0 +1,70 @@
+.or-title {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.or-title h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+}
+.or-section {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.15vw;
+}
+.middle-section {
+  background: black;
+  width: 100%;
+}
+.middle-section img {
+  width: 100%;
+  height: 100%;
+}
+.left-section {
+  width: 100%;
+  padding: 30px 30px 0px 30px;
+}
+.right-section {
+  width: 100%;
+  padding: 30px 30px 0px 30px;
+}
+
+/*-----------------cards section-------------------*/
+.grid-sec {
+  margin-top: 100px;
+}
+.or-grid {
+  display: flex;
+  gap: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.or-context {
+  width: 27%;
+  border-radius: 16px;
+  box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.25);
+}
+.or-img img {
+  width: 100%;
+}
+.or-img {
+  overflow: hidden;
+  border-radius: 16px 16px 0px 0px;
+}
+.or-text {
+  padding: 0px 30px 10px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9vw;
+}
+.or-heading {
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+}

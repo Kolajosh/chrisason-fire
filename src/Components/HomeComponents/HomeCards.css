@@ -1,6 +1,6 @@
 .card-grid {
   display: flex;
-  grid-gap: 50px;
+  gap: 50px;
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 150px;
