@@ -1,11 +1,13 @@
 import React from "react";
 import "./Navbar.css";
+import logo from "../Images/logo.png";
 
 function Navbar() {
   return (
     <>
       <div className="navbar">
-        <h1>CHRISASON FIRE PROTECTION</h1>
+        <img src={logo} alt=""></img>
+        <p>CHRISASON FIRE PROTECTION</p>
       </div>
       <div className="nav-menu">
         <div className="home">
