@@ -20,7 +20,9 @@ function Navbar() {
         <div className="products">
           <a href="/products">Products</a>
         </div>
-        <div className="contact">Contact</div>
+        <div className="contact">
+          <a href="/contact">Contact</a>
+        </div>
       </div>
     </>
   );
