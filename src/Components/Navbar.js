@@ -17,7 +17,9 @@ function Navbar() {
         <div className="operations">
           <a href="/operations"> Operations</a>
         </div>
-        <div className="products">Products</div>
+        <div className="products">
+          <a href="/products">Products</a>
+        </div>
         <div className="contact">Contact</div>
       </div>
     </>

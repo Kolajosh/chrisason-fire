@@ -19,14 +19,18 @@
   border-radius: 16px 16px 0px 0px;
 }
 .card-text {
-  padding: 0px 30px 10px 30px;
+  padding: 10px 30px 20px 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9vw;
 }
 .card-heading {
   margin-top: 100px;
+  margin-bottom: 50px;
   margin-left: 200px;
   margin-right: 200px;
   font-size: 1vw;
   font-family: Arial, Helvetica, sans-serif;
+}
+.ptitle {
+  padding-bottom: 10px;
 }

@@ -20,3 +20,9 @@
 .bold {
   font-weight: 600;
 }
+.text1 p {
+  padding-top: 20px;
+}
+.text2 p {
+  padding-top: 20px;
+}

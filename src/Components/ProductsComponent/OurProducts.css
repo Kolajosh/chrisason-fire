@@ -1,0 +1,89 @@
+.products-img {
+  width: 100%;
+}
+.products-img img {
+  object-fit: contain;
+  width: 100%;
+}
+.products-text {
+  margin-top: -18%;
+  text-align: center;
+}
+.products-text h1 {
+  font-size: 3vw;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+.products-text p {
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+.products-foot {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8vw;
+  padding-top: 80px;
+  text-align: center;
+  color: white;
+}
+
+/*---------------------------------product card-----------------------------*/
+
+:root {
+  --background-color: #3a3e4f;
+  --card-color: #282a36;
+  --text-color: #f8f8f2;
+  --clr-green: #a0faa6;
+  --clr-blue: #8bfbf5;
+  --clr-pink: #ff79c6;
+  --clr-purple: #9b70c6;
+  --clr-yellow: #f1fa94;
+  --gradient: linear-gradient(
+    244deg,
+    #9b70c6 2%,
+    #8bfbf5 49%,
+    #a0faa6 71%,
+    #f1fa94 100%
+  );
+}
+.whole-flex {
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.product-card-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.product-card {
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  border-radius: 10px;
+  align-self: center;
+  overflow: hidden;
+}
+.product-card::after {
+  content: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum";
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 0.7vw;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #66666694;
+  transform: translateY(100%);
+  transition: ease 0.8s;
+  height: 70%;
+  border-radius: 0px 0px 10px 10px;
+  z-index: 2000;
+}
+.product-card:hover::after {
+  transform: translateY(0%);
+  color: white;
+}

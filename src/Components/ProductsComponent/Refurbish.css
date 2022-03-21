@@ -1,0 +1,61 @@
+.refurbishment-img {
+  width: 100%;
+  padding-top: 50px;
+}
+.refurbishment-img img {
+  object-fit: contain;
+  width: 100%;
+}
+.refurbishment-text {
+  margin-top: -15%;
+  text-align: center;
+}
+
+.refurbishment-text h1 {
+  font-size: 3vw;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/*-------------------------Rcards--------------------------*/
+
+.refurbish-card-grid {
+  margin-top: 15%;
+  display: flex;
+  gap: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.refurbish-card {
+  width: 27%;
+  border-radius: 16px;
+  box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.25);
+}
+.refurbish-card-img img {
+  width: 100%;
+}
+.refurbish-card-img {
+  overflow: hidden;
+  border-radius: 16px 16px 0px 0px;
+}
+.refurbish-card-text {
+  padding: 10px 30px 20px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9vw;
+}
+.refurbish-card-heading {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ptitle {
+  padding-bottom: 10px;
+}
