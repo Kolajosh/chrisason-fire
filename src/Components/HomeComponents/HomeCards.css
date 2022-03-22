@@ -13,6 +13,7 @@
 }
 .card-img img {
   width: 100%;
+  transition: 0.3s;
 }
 .card-img {
   overflow: hidden;
@@ -33,4 +34,7 @@
 }
 .ptitle {
   padding-bottom: 10px;
+}
+.card-img img:hover {
+  width: 110%;
 }
