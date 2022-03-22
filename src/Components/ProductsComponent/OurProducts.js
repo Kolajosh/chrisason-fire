@@ -1,6 +1,18 @@
 import React from "react";
 import products from "../../Images/products.png";
 import hose from "../../Images/hose.png";
+import waterhose from "../../Images/waterhose.png";
+import firechem from "../../Images/firechem.png";
+import foam from "../../Images/foam.png";
+import monitor from "../../Images/monitor.png";
+import fits from "../../Images/fits.png";
+import pumps from "../../Images/pumps.png";
+import extin from "../../Images/extin.png";
+import systems from "../../Images/systems.png";
+import chops from "../../Images/chops.png";
+import gears from "../../Images/gears.png";
+import more from "../../Images/more.png";
+
 import "./OurProducts.css";
 
 function OurProducts() {
@@ -35,53 +47,53 @@ function OurProducts() {
           </div>
 
           <div className="product-card">
-            <img src={hose} alt=""></img>
+            <img src={waterhose} alt=""></img>
           </div>
 
           <div className="product-card">
-            <img src={hose} alt=""></img>
-          </div>
-        </div>
-
-        <div className="product-card-flex">
-          <div className="product-card">
-            <img src={hose} alt=""></img>
-          </div>
-
-          <div className="product-card">
-            <img src={hose} alt=""></img>
-          </div>
-
-          <div className="product-card">
-            <img src={hose} alt=""></img>
+            <img src={firechem} alt=""></img>
           </div>
         </div>
 
         <div className="product-card-flex">
           <div className="product-card">
-            <img src={hose} alt=""></img>
+            <img src={foam} alt=""></img>
           </div>
 
           <div className="product-card">
-            <img src={hose} alt=""></img>
+            <img src={monitor} alt=""></img>
           </div>
 
           <div className="product-card">
-            <img src={hose} alt=""></img>
+            <img src={fits} alt=""></img>
           </div>
         </div>
 
         <div className="product-card-flex">
           <div className="product-card">
-            <img src={hose} alt=""></img>
+            <img src={pumps} alt=""></img>
           </div>
 
           <div className="product-card">
-            <img src={hose} alt=""></img>
+            <img src={extin} alt=""></img>
           </div>
 
           <div className="product-card">
-            <img src={hose} alt=""></img>
+            <img src={systems} alt=""></img>
+          </div>
+        </div>
+
+        <div className="product-card-flex">
+          <div className="product-card">
+            <img src={chops} alt=""></img>
+          </div>
+
+          <div className="product-card">
+            <img src={gears} alt=""></img>
+          </div>
+
+          <div className="product-card">
+            <img src={more} alt=""></img>
           </div>
         </div>
       </div>
