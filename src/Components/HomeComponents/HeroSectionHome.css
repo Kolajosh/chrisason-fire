@@ -4,12 +4,24 @@
 .hero-img img {
   object-fit: contain;
   width: 100%;
+  max-width: 120%;
+  animation-duration: 3s;
+  animation-name: zoom-in-out;
+  animation-iteration-count: 1;
+}
+@keyframes zoom-in-out {
+  from {
+    width: 110%;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 .hero-text {
   margin-top: -18%;
   text-align: center;
 }
-
 .hero-text h1 {
   font-size: 3vw;
   font-weight: bolder;
