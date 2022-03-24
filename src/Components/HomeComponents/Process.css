@@ -1,5 +1,5 @@
 .process-grid {
-  margin-top: 100px;
+  margin-top: 50px;
   padding-left: 200px;
   padding-right: 200px;
   text-align: center;
@@ -23,4 +23,29 @@
 }
 .process-img img:hover {
   transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1285px) {
+  .process-grid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  @media screen and (max-width: 660px) {
+    .process-grid {
+      padding-left: 25px;
+      padding-right: 25px;
+      grid-template-columns: repeat(2, auto);
+    }
+    .process-title {
+      font-size: 12px;
+    }
+    .process-body {
+      font-size: 9px;
+    }
+    .process1 {
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding: 40px 10px 40px 10px;
+      border-radius: 16px;
+    }
+  }
 }

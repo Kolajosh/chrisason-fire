@@ -22,7 +22,7 @@ function Process() {
           </div>
         </div>
 
-        <div className="process2">
+        <div className="process1">
           <div className="process-img">
             <img src={pro3} alt="25%"></img>
           </div>
@@ -35,7 +35,7 @@ function Process() {
           </div>
         </div>
 
-        <div className="process3">
+        <div className="process1">
           <div className="process-img">
             <img src={pro2} alt="25%"></img>
           </div>
@@ -49,7 +49,7 @@ function Process() {
           </div>
         </div>
 
-        <div className="process4">
+        <div className="process1">
           <div className="process-img">
             <img src={pro1} alt="25%"></img>
           </div>

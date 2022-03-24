@@ -21,7 +21,7 @@ function CarouselText() {
             isPlaying={true}
             infinite={true}
           >
-            <Slider moveThreshold={0}>
+            <Slider className="slider-class" moveThreshold={0}>
               <Slide index={0}>
                 <img src={img1} alt="slide1" className="slideimg"></img>
               </Slide>

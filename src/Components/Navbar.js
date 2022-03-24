@@ -1,31 +1,82 @@
-import React from "react";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../Images/logo.png";
 
 function Navbar() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
   return (
     <>
-      <div className="navbar">
+      <div className="navbar-logo">
         <img src={logo} alt=""></img>
         <p>CHRISASON FIRE PROTECTION</p>
       </div>
-      <div className="nav-menu">
-        <div className="home">
-          <a href="/">Home</a>
+      <nav className="navbar">
+        <div className="nav-container">
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Our Company
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/operations"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Operations
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/products"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Products
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Contact
+              </NavLink>
+            </li>
+          </ul>
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          </div>
         </div>
-        <div className="company">
-          <a href="/about">Our Company</a>
-        </div>
-        <div className="operations">
-          <a href="/operations"> Operations</a>
-        </div>
-        <div className="products">
-          <a href="/products">Products</a>
-        </div>
-        <div className="contact">
-          <a href="/contact">Contact</a>
-        </div>
-      </div>
+      </nav>
     </>
   );
 }
