@@ -104,7 +104,7 @@
   .nav-menu.active {
     background: #fff;
     left: 0px;
-    opacity: 0.92;
+    opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
   }
@@ -129,7 +129,13 @@
     cursor: pointer;
     color: black;
   }
+
   .nav-item:after {
     display: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  .navbar {
+    font-size: 12px;
   }
 }

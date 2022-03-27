@@ -56,3 +56,39 @@
   padding-right: 10px;
   font-size: 0.9vw;
 }
+
+@media screen and (max-width: 1285px) {
+  .footer-1 {
+    font-size: 15px;
+  }
+  .footer-3 p {
+    font-size: 13px;
+  }
+  .footer-3 i {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .footer-1 {
+    font-size: 10px;
+  }
+  .footer-3 p {
+    font-size: 10px;
+  }
+  .footer-3 i {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .footer-1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-3 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .left-text-foot {
+    padding-bottom: 0px;
+  }
+}

@@ -2,9 +2,9 @@
   width: 100%;
 }
 .hero-img img {
-  object-fit: contain;
   width: 100%;
-  max-width: 120%;
+  height: 100%;
+  object-fit: contain;
   animation-duration: 3s;
   animation-name: zoom-in-out;
   animation-iteration-count: 1;
@@ -39,7 +39,7 @@
 @media screen and (max-width: 520px) {
   .hero-img {
     width: 100%;
-    height: 250px;
+    height: 300px;
   }
   .hero-img img {
     width: 100%;
@@ -47,15 +47,16 @@
     object-fit: cover;
   }
   .hero-text {
-    margin-top: -170px;
+    margin-top: -250px;
     text-align: left;
     margin-left: 25px;
+    margin-right: 25px;
   }
   .hero-text h1 {
     font-size: 25px;
   }
   .hero-text p {
-    font-size: 10px;
+    font-size: 13px;
     padding-top: 5px;
   }
 }

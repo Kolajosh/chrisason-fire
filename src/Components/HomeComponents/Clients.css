@@ -1,11 +1,12 @@
 .logo-flex {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 200px;
   margin-right: 200px;
 }
 .logo-head {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1vw;
+  margin-bottom: 20px;
 }
 .logo-block {
   display: grid;
@@ -26,6 +27,10 @@
   }
 }
 @media screen and (max-width: 660px) {
+  .logo-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+  }
   .logo-flex {
     margin-left: 25px;
     margin-right: 25px;
