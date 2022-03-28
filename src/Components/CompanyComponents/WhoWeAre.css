@@ -31,3 +31,32 @@
 .about-text-2 {
   padding-top: 10px;
 }
+
+@media screen and (max-width: 1285px) {
+  .about-section {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .about-section {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .about-paragraph-1 {
+    font-size: 13px;
+  }
+  .about-title {
+    font-size: 17px;
+  }
+  .img-left {
+    width: 100%;
+  }
+  .about-flex {
+    flex-direction: column;
+  }
+  .text-right {
+    font-size: 13px;
+    padding-left: 0px;
+  }
+}

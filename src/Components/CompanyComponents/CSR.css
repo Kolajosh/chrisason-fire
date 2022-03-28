@@ -4,6 +4,7 @@
   padding-left: 50px;
   padding-right: 50px;
   background-image: url("../../Images/csr.png");
+  background-size: cover;
 }
 .csr-title {
   text-align: center;
@@ -26,8 +27,40 @@
   padding-right: 200px;
 }
 .csr-left-text {
-  width: 50%;
+  width: 100%;
 }
 .csr-right-text {
-  width: 50%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1285px) {
+  .csr-text {
+    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .csr-text {
+    gap: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 13px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .csr-main {
+    width: 100%;
+    height: 200px;
+  }
+  .company-hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .csr-title h1 {
+    font-size: 25px;
+  }
 }

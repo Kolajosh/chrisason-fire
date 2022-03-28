@@ -11,6 +11,7 @@
 }
 .more-about-flex {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   gap: 70px;
   font-size: 1.15vw;
@@ -20,11 +21,47 @@
   padding-bottom: 70px;
 }
 .more-left-text {
-  width: 50%;
+  width: 100%;
 }
 .more-right-text {
-  width: 50%;
+  width: 100%;
 }
 .text-title {
   font-size: 1.4vw;
+}
+
+@media screen and (max-width: 1285px) {
+  .more-about {
+    padding-left: 100px;
+    padding-right: 100px;
+    background: black;
+  }
+  .more-about-flex {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .more-about-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .more-about-title {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .text-title {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .more-left-text {
+    font-size: 13px;
+  }
+  .more-right-text {
+    font-size: 13px;
+  }
+  .more-about {
+    padding-left: 25px;
+    padding-right: 25px;
+    background: black;
+  }
 }

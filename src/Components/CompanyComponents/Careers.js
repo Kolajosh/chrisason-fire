@@ -36,6 +36,7 @@ function Careers() {
       <div className="careers-black">
         <div className="careers-black-left">
           <p>Fire Engineer Technician</p>
+          <br /> <br />
           <p>
             To join as a technician, we require responsibility, strict attention
             to detail, and good communication skills embedded well in your
@@ -45,7 +46,7 @@ function Careers() {
           </p>
         </div>
         <div className="careers-black-right">
-          <p>Prospective Application</p>
+          <p>Prospective Application</p> <br /> <br />
           <p>
             Please forward your CV & Cover letter to info@chrisasonfire.com and
             a member of our team will get back to you should a position come up

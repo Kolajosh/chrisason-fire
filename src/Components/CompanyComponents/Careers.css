@@ -3,6 +3,7 @@
 }
 .careers-img img {
   width: 100%;
+  object-fit: cover;
 }
 .careers-text {
   padding-top: 50px;
@@ -39,4 +40,55 @@
 }
 .careers-black-right {
   width: 50%;
+}
+
+@media screen and (max-width: 1285px) {
+  .light-text {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .careers-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .bold-text {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .careers-black {
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .light-text {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .careers-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .bold-text {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .careers-black {
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 20px;
+  }
+  .light-text {
+    font-size: 13px;
+  }
+  .bold-text {
+    font-size: 13px;
+  }
+  .careers-black-left {
+    font-size: 13px;
+  }
+  .careers-black-right {
+    font-size: 13px;
+  }
 }
