@@ -112,4 +112,9 @@
   .or-text {
     font-size: 10px;
   }
+  .or-title h1 {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
