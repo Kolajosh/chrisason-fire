@@ -59,3 +59,57 @@
 .ptitle {
   padding-bottom: 10px;
 }
+
+@media screen and (max-width: 1285px) {
+  .refurbish-card-grid {
+    gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  .refurbish-card-text {
+    padding: 10px 15px 20px 15px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .refurbish-card-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .refurbish-card {
+    width: 50%;
+  }
+  .refurbish-card-text {
+    font-size: 10px;
+    padding: 10px 15px 10px 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .refurbish-card {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .refurbishment-img {
+    width: 100%;
+    height: 250px;
+  }
+  .refurbishment-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .refurbishment-text {
+    margin-top: -100px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .refurbishment-text h1 {
+    font-size: 25px;
+  }
+}
