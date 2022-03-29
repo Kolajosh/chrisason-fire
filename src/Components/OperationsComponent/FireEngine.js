@@ -126,6 +126,111 @@ function FireEngine() {
         </div>
       </div>
 
+      {/* mobile view section */}
+
+      <div className="fire-engine-card-grid-mobile">
+        <div className="fire-engine-card">
+          <div className="fire-engine-card-icon">
+            <img src={global} alt=""></img>
+          </div>
+          <div className="fire-engine-card-head">
+            <p>Global Clientele</p>
+          </div>
+          <div className="fire-engine-card-body">
+            <p>
+              Chrisason Fire has built a concrete reputation that exceeds
+              Nigeria and has become a trusted brand for international
+              organisations operating in Nigeria.
+            </p>
+          </div>
+        </div>
+
+        <div className="fire-engine-card">
+          <div className="fire-engine-card-icon">
+            <img src={work} alt=""></img>
+          </div>
+          <div className="fire-engine-card-head">
+            <p>Work Guarantee</p>
+          </div>
+          <div className="fire-engine-card-body">
+            <p>
+              Throughout our organisation, we have instilled in every memeber of
+              our team - the habit of a strong work ethic. We consistently
+              deliver time & time again.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="fire-engine-card-grid-mobile">
+        <div className="fire-engine-card">
+          <div className="fire-engine-card-icon">
+            <img src={time} alt=""></img>
+          </div>
+          <div className="fire-engine-card-head">
+            <p>Time Milestone</p>
+          </div>
+          <div className="fire-engine-card-body">
+            <p>
+              We have a very professional workforce that is very focused and
+              experienced. We will always endeavour to meet deadlines even when
+              it will cost us financially.
+            </p>
+          </div>
+        </div>
+
+        <div className="fire-engine-card">
+          <div className="fire-engine-card-icon">
+            <img src={report} alt=""></img>
+          </div>
+          <div className="fire-engine-card-head">
+            <p>Client Support</p>
+          </div>
+          <div className="fire-engine-card-body">
+            <p>
+              Like every good company would say - our clients are the backbone
+              of our organisation. In this stead, we always go the extra mile to
+              ensure you are completely satisfied with us.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="fire-engine-card-grid-mobile">
+        <div className="fire-engine-card">
+          <div className="fire-engine-card-icon">
+            <img src={rnd} alt=""></img>
+          </div>
+          <div className="fire-engine-card-head">
+            <p>Research & Development</p>
+          </div>
+          <div className="fire-engine-card-body">
+            <p>
+              Focusing more of our expenses on research & development, we ensure
+              you get the latest safety technologies to protect & safeguard your
+              investments.
+            </p>
+          </div>
+        </div>
+
+        <div className="fire-engine-card">
+          <div className="fire-engine-card-icon">
+            <img src={qa} alt=""></img>
+          </div>
+          <div className="fire-engine-card-head">
+            <p>Quality Assured</p>
+          </div>
+          <div className="fire-engine-card-body">
+            <p>
+              CSafety is a serious issue. To this end - it is imperative that
+              your safety consultants and engineers pay close attention to
+              detail and have established a reputation for assured quality like
+              we have.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="extra-text">
         <div className="left-extra-text">
           <div className="extra-head">We go the extra mile...</div>

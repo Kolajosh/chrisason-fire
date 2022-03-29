@@ -95,14 +95,16 @@
   }
   .left-section {
     font-size: 13px;
+    padding: 30px 30px 30px 30px;
   }
   .right-section {
     font-size: 13px;
+    padding: 30px 30px 30px 30px;
   }
   .or-grid {
     margin-left: 25px;
     margin-right: 25px;
-    gap: 50px;
+    gap: 25px;
   }
   .or-context {
     width: 40%;

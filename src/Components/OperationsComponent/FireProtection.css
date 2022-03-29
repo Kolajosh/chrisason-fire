@@ -36,6 +36,9 @@
   margin-right: 200px;
   margin-bottom: 50px;
 }
+.fire-cards-grid-mobile {
+  display: none;
+}
 .fire-card {
   font-family: Arial, Helvetica, sans-serif;
   width: 27%;
@@ -45,7 +48,11 @@
   text-align: center;
 }
 .fire-card-icon {
+  width: 100%;
   padding-top: 70px;
+}
+.fire-card-icon img {
+  width: 20%;
 }
 .fire-card-head {
   padding-top: 20px;
@@ -54,4 +61,78 @@
 .fire-card-body {
   padding: 10px 30px 70px 30px;
   font-size: 0.8vw;
+}
+
+@media screen and (max-width: 1285px) {
+  .fire-cards-grid {
+    gap: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .fire-card {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+  }
+  .fire-card-body {
+    padding: 10px 15px 40px 15px;
+  }
+  .fire-card-icon {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .fire-cards-grid {
+    gap: 30px;
+  }
+  .fire-card {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .fire-cards-grid {
+    display: none;
+  }
+  .fire-cards-grid-mobile {
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: center;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .fire-card {
+    width: 40%;
+  }
+  .fire-card-head {
+    font-size: 10px;
+  }
+  .fire-card-body {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .fire-img {
+    width: 100%;
+    height: 300px;
+  }
+  .fire-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .fire-text {
+    margin-top: -250px;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .fire-text h1 {
+    font-size: 25px;
+  }
+  .fire-text p {
+    font-size: 13px;
+    padding-top: 5px;
+  }
 }

@@ -142,6 +142,127 @@ function FireProtection() {
           </div>
         </div>
       </div>
+
+      {/* mobile view section */}
+      <div className="fire-cards-grid-mobile">
+        <div className="fire-card">
+          <div className="fire-card-icon">
+            <img src={no1} alt=""></img>
+          </div>
+          <div className="fire-card-head">
+            <p>Nigeria’s #1</p>
+          </div>
+          <div className="fire-card-body">
+            <p>
+              Chrisason Fire is the country's top fire protection company. The
+              company was started in 1987 with the goal of just ensuring the
+              Nation was well equipped with fire safety equipment to ensure the
+              protection of life and property around the country. Now the
+              company boasts of a lot more fire engineering expertise and
+              experience from almost 30years in service to Nigerians.
+            </p>
+          </div>
+        </div>
+
+        <div className="fire-card">
+          <div className="fire-card-icon">
+            <img src={nation} alt=""></img>
+          </div>
+          <div className="fire-card-head">
+            <p>Nigeria’s #1</p>
+          </div>
+          <div className="fire-card-body">
+            <p>
+              Chrisason Fire is the country's top fire protection company. The
+              company was started in 1987 with the goal of just ensuring the
+              Nation was well equipped with fire safety equipment to ensure the
+              protection of life and property around the country. Now the
+              company boasts of a lot more fire engineering expertise and
+              experience from almost 30years in service to Nigerians.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="fire-cards-grid-mobile">
+        <div className="fire-card">
+          <div className="fire-card-icon">
+            <img src={quality} alt=""></img>
+          </div>
+          <div className="fire-card-head">
+            <p>Nigeria’s #1</p>
+          </div>
+          <div className="fire-card-body">
+            <p>
+              Chrisason Fire is the country's top fire protection company. The
+              company was started in 1987 with the goal of just ensuring the
+              Nation was well equipped with fire safety equipment to ensure the
+              protection of life and property around the country. Now the
+              company boasts of a lot more fire engineering expertise and
+              experience from almost 30years in service to Nigerians.
+            </p>
+          </div>
+        </div>
+
+        <div className="fire-card">
+          <div className="fire-card-icon">
+            <img src={trust} alt=""></img>
+          </div>
+          <div className="fire-card-head">
+            <p>Nigeria’s #1</p>
+          </div>
+          <div className="fire-card-body">
+            <p>
+              Chrisason Fire is the country's top fire protection company. The
+              company was started in 1987 with the goal of just ensuring the
+              Nation was well equipped with fire safety equipment to ensure the
+              protection of life and property around the country. Now the
+              company boasts of a lot more fire engineering expertise and
+              experience from almost 30years in service to Nigerians.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="fire-cards-grid-mobile">
+        <div className="fire-card">
+          <div className="fire-card-icon">
+            <img src={safe} alt=""></img>
+          </div>
+          <div className="fire-card-head">
+            <p>Nigeria’s #1</p>
+          </div>
+          <div className="fire-card-body">
+            <p>
+              Chrisason Fire is the country's top fire protection company. The
+              company was started in 1987 with the goal of just ensuring the
+              Nation was well equipped with fire safety equipment to ensure the
+              protection of life and property around the country. Now the
+              company boasts of a lot more fire engineering expertise and
+              experience from almost 30years in service to Nigerians.
+            </p>
+          </div>
+        </div>
+
+        <div className="fire-card">
+          <div className="fire-card-icon">
+            <img src={free} alt=""></img>
+          </div>
+          <div className="fire-card-head">
+            <p>Nigeria’s #1</p>
+          </div>
+          <div className="fire-card-body">
+            <p>
+              Chrisason Fire is the country's top fire protection company. The
+              company was started in 1987 with the goal of just ensuring the
+              Nation was well equipped with fire safety equipment to ensure the
+              protection of life and property around the country. Now the
+              company boasts of a lot more fire engineering expertise and
+              experience from almost 30years in service to Nigerians.
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
