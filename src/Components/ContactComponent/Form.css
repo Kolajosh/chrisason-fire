@@ -29,10 +29,10 @@
   margin-bottom: 10px;
 }
 .form1 {
-  width: 70%;
+  width: 100%;
 }
 .form2 {
-  width: 70%;
+  width: 100%;
 }
 .cfield {
   font-family: Arial, Helvetica, sans-serif;
@@ -94,4 +94,70 @@
 }
 .details-body {
   font-size: 1.15vw;
+}
+
+@media screen and (max-width: 1285px) {
+  .contact-details {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+  }
+  .contact-head {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .form-flex {
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 10px;
+  }
+  .form-button {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 660px) {
+  .contact-details {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 70px;
+  }
+  .contact-head {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .form-flex {
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 0px;
+  }
+  .form-button {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .details-head h2 {
+    font-size: 17px;
+  }
+  .details-body {
+    font-size: 13px;
+  }
+  .cfield {
+    font-size: 13px;
+  }
+  .mfield {
+    font-size: 13px;
+  }
+  .form-btn {
+    font-size: 13px;
+  }
+  .contact-head h1 {
+    font-size: 20px;
+  }
 }
