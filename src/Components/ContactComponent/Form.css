@@ -95,6 +95,16 @@
 .details-body {
   font-size: 1.15vw;
 }
+.t-red {
+  color: red;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 15px;
+}
+.t-green {
+  color: green;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 15px;
+}
 
 @media screen and (max-width: 1285px) {
   .contact-details {
